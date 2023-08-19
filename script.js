@@ -20,7 +20,7 @@ function playFired() {
   }
   totalbb();
   function timerFunc() {
-    let timer = 6;
+    let timer = 60;
     //   let t = "";
     let timerfun = setInterval(() => {
       if (timer > 0) {
@@ -151,7 +151,7 @@ function playFired() {
       }
     }, 1000);
   }
-  // timerFunc();
+  timerFunc();
 
   function Hit() {
     hitNum = Math.floor(Math.random() * 20);
