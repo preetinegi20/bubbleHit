@@ -91,6 +91,8 @@ function playFired() {
         score = 0;
         count = 0;
         document.querySelector(".playAgain").addEventListener("click", () => {
+            const audio = document.getElementById("playAgainAud");
+          audio.play();
           document.querySelector(".main-container").innerHTML = `
           <div class="main-container">
 
@@ -140,8 +142,7 @@ function playFired() {
             </div>
             <div>
           `;
-          const audio = document.getElementById("playAgainAud");
-          audio.play();
+        
           totalbb();
           timerFunc();
           Hit();
