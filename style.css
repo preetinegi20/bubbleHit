@@ -349,7 +349,7 @@ text-shadow: 6px 2px 5px #ff1797d2;
 .playAgain {
     font-size: 2rem;
 }
-.Fscore, .Fhits {margin-top: -1rem;
+.Fscore, .Fhits {margin-top: 0rem;
 }
 
 .play {
