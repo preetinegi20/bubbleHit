@@ -24,8 +24,8 @@ function playFired() {
     //   let t = "";
     let timerfun = setInterval(() => {
       if (timer > 0) {
+         document.querySelector(".count").innerText = timer;
         timer--;
-        document.querySelector(".count").innerText = timer;
         document.querySelector(".count").classList.add("timmer-ani");
       } else {
         clearInterval(timerfun);
