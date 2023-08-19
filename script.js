@@ -24,8 +24,9 @@ function playFired() {
     //   let t = "";
     let timerfun = setInterval(() => {
       if (timer > 0) {
-         document.querySelector(".count").innerText = timer;
         timer--;
+        document.querySelector(".count").innerText = timer;
+
         document.querySelector(".count").classList.add("timmer-ani");
       } else {
         clearInterval(timerfun);
@@ -91,8 +92,6 @@ function playFired() {
         score = 0;
         count = 0;
         document.querySelector(".playAgain").addEventListener("click", () => {
-            const audio = document.getElementById("playAgainAud");
-          audio.play();
           document.querySelector(".main-container").innerHTML = `
           <div class="main-container">
 
@@ -142,7 +141,8 @@ function playFired() {
             </div>
             <div>
           `;
-        
+          const audio = document.getElementById("playAgainAud");
+          audio.play();
           totalbb();
           timerFunc();
           Hit();
