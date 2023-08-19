@@ -368,6 +368,13 @@ text-shadow: 6px 2px 5px #ff1797d2;
 }
 
 @media (min-width: 250px) and (max-width: 450px) {
+        .frame img {
+        transform: rotate(90deg);
+        z-index: 1;
+        height: -1vh;
+        width: 200vw;
+        top: 16rem;
+        right: -12rem;}
     .play {
         font-size: 2.4rem;
     }
