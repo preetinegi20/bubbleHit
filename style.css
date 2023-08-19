@@ -371,10 +371,10 @@ text-shadow: 6px 2px 5px #ff1797d2;
         .frame img {
         transform: rotate(90deg);
         z-index: 1;
-        height: -1vh;
+        height: unset;
         width: 200vw;
         top: 16rem;
-        right: -12rem;}
+        right: -14rem;}
     .play {
         font-size: 2.4rem;
     }
@@ -448,7 +448,7 @@ height: 100%;
       .sub-Container {overflow: hidden};
       .pLeft img {
         height: 15rem;
-        top: 11rem;
+        top: 2rem;
         left: 0;
         right: 0;
       }
@@ -459,9 +459,6 @@ align-items: center;
 height: 12rem;
 justify-content: center;
 overflow: hidden;
-      }
-      .pLeft img {
-        margin-top: 10rem;
       }
       .Fscore, .Fhits {font-size: 1.8;}
       .bubble-body .bb{width: 2.8rem;
