@@ -1,4 +1,4 @@
-=function playFired() {
+function playFired() {
   let hitNum = 0;
   let score = 0;
   let count = 0;
